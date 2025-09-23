@@ -1,0 +1,15 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# os
+.DS_Store
+
+# notebooks
+.ipynb_checkpoints/
+
+# misc
+*.log
