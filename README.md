@@ -11,11 +11,11 @@ The project includes:
 ---
 
 # 🧪 Example prompt
-question :
+**Question** :
 ```powershell
  How do I politely cancel plans I never wanted in the first place ?
 ```
-answer :
+**Answer** :
 ```python
     Easy: Just don’t.
     If they call, feign illness.
