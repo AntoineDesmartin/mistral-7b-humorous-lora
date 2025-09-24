@@ -12,15 +12,19 @@ The project includes:
 
 # 🧪 Example prompt
 
-```How do I politely cancel plans I never wanted in the first place ?```
+```powershell
+ How do I politely cancel plans I never wanted in the first place ?
+```
 
-```Easy: Just don’t.
+```powershell
+    Easy: Just don’t.
     If they call, feign illness.
     If they text, ignore.
     If they show up, pretend you were in the shower.
     If they stay, ask for their phone number. Then block it.
     Congratulations, you’re now a lone wolf. Powered by caffeine and tears. Cheap, efficient, soul-crushing.
-    Great until you remember mortality. Then it’s just sad.```
+    Great until you remember mortality. Then it’s just sad.
+    ```
 
 ---
 
@@ -68,9 +72,8 @@ def chat(question):
 # 🔥 Test it
 print(chat("Give me quick tips to survive Monday mornings?"))
 print(chat("How do I politely cancel plans I never wanted in the first place?"))
+```
 
-
----
 
 
 ## 🚀 Quickstart (with GPU)
@@ -98,36 +101,26 @@ pip install torch --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements.txt
 ```
 
-3) Run the local chat
-```python app.py```
+### 3) Run the local chat
+```
+python app.py
+```
 
 
 # 🧪 Example prompt
 
 ```How do I politely cancel plans I never wanted in the first place ?```
 
-```Easy: Just don’t.
-    If they call, feign illness.
-    If they text, ignore.
-    If they show up, pretend you were in the shower.
-    If they stay, ask for their phone number. Then block it.
-    Congratulations, you’re now a lone wolf. Powered by caffeine and tears. Cheap, efficient, soul-crushing.
-    Great until you remember mortality. Then it’s just sad.```
-
 
 # 🧠 About the Model
 
 - Base: mistralai/Mistral-7B-Instruct-v0.2 (Apache-2.0, gated access)
-
 - Method: LoRA (PEFT + Hugging Face Transformers)
-
 - Adapter size: ~53 MB
-
 - Training: Google Colab (T4 GPU), ~800 instruction/response pairs, 3 epochs
-
 - Eval: Perplexity ~7.75 on a small held-out set
 
-The adapter changes style (humor) without forgetting the base model knowledge.
+The adater changes style (humor) without forgetting the base model knowledge.
 
 
 # 📚 Training (Notebook)
