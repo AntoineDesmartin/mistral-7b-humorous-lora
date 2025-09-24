@@ -16,7 +16,7 @@ The project includes:
  How do I politely cancel plans I never wanted in the first place ?
 ```
 
-```powershell
+```python
     Easy: Just don’t.
     If they call, feign illness.
     If they text, ignore.
@@ -24,7 +24,7 @@ The project includes:
     If they stay, ask for their phone number. Then block it.
     Congratulations, you’re now a lone wolf. Powered by caffeine and tears. Cheap, efficient, soul-crushing.
     Great until you remember mortality. Then it’s just sad.
-    ```
+```
 
 ---
 
