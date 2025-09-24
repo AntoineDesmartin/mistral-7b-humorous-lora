@@ -11,18 +11,20 @@ The project includes:
 ---
 
 # 🧪 Example prompt
-
+question :
 ```powershell
  How do I politely cancel plans I never wanted in the first place ?
 ```
-
+answer :
 ```python
     Easy: Just don’t.
     If they call, feign illness.
     If they text, ignore.
     If they show up, pretend you were in the shower.
     If they stay, ask for their phone number. Then block it.
-    Congratulations, you’re now a lone wolf. Powered by caffeine and tears. Cheap, efficient, soul-crushing.
+    Congratulations, you’re now a lone wolf.
+    Powered by caffeine and tears.
+    Cheap, efficient, soul-crushing.
     Great until you remember mortality. Then it’s just sad.
 ```
 
